@@ -1,12 +1,21 @@
+# sunrise
+timelapse video throughout the year
 
-sunrise sunset tables from 
+## examples
+- [High Noon](https://youtu.be/zMbrEkDziwo)
+- [Dawn](https://youtu.be/NFoxIiz2AVo)
+- [Sunset](https://youtu.be/gmhO19kwxJ8)
+
+## sunrise sunset tables from 
 https://www.esrl.noaa.gov/gmd/grad/solcalc/table.php?lat=37.77&lon=-122.42&year=2020
+
 https://www.esrl.noaa.gov/gmd/grad/solcalc/table.php?lat=37.77&lon=-122.42&year=2021
+
 https://sunrise-sunset.org/us/san-francisco-ca/
 
+https://www.timeanddate.com/sun/usa/san-francisco
 
-
-# https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg
+## https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg
     "h:\ffmpeg\ffmpeg.exe" -y -r 1/5 -f concat -safe 0 -i "E:\images\imagepaths.txt" -c:v libx264 -vf "fps=25,format=yuv420p" "e:\out.mp4"
 
     imagespaths.txt:
